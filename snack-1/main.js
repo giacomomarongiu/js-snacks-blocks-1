@@ -6,15 +6,16 @@ console.log("Hello world");
 //Dichiaro due variabili
 //Assegno loro un valore con un promt
 
-const numberone= Number(prompt('inserisci un numero'));
-console.log(numberone);
+const numberOne =  Number(prompt('insert a number'));
+console.log(numberOne);
 
-const numbertwo= Number(prompt('inserisci un numero'));
-console.log(numbertwo);
+const numberTwo = Number(prompt('insert a number'));
+console.log(numberTwo);
 
-if (numberone===numbertwo) {
-    console.log('i numeri sono uguali');
-} else if(numberone>numbertwo){
+//verifico le varie possibilità e stampo
+if (numberOne === numberTwo) {
+    console.log('numbers are equal');
+} else if(numberOne > numberTwo){
     console.log("the first is bigger");
 } else {
     console.log("the second is bigger");
