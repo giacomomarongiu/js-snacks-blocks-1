@@ -10,7 +10,6 @@ console.log("Hai inserito i seguenti valori", user_name);
 //Confronto ogni elemento dell'array con l'input
 result ="vattene via";
 for (let index = 0; index < names.length; index++) {
-
     // SE è tra i miei array -> True
     // ->  Non mi interessa continuare e faccio finire l'iter
     if (user_name === names[index]) {
